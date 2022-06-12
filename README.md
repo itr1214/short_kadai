@@ -14,7 +14,7 @@ POST
 レスポンス
 {
     "status": 200,
-    "short_url": "hd10h"
+    "short_url": "http://localhost:3000/hd10h"
 }
 ```
 ---
