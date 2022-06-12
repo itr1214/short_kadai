@@ -1,8 +1,9 @@
 class UrlsController < ApplicationController
 
   def index
-    urls = Shortener::ShortenedUrl.pluck(:url)
-    render json: {status: 200, original_urls: urls}
+    # binding.pry
+    urls = Shortener::ShortenedUrl.pluck(:url,:unique_key)
+    render json: {status: 200, urls: urls}
   end
 
   def create
