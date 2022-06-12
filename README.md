@@ -31,19 +31,19 @@ GET
     "urls": [
         [
             "https://timecrowd.net/",
-            "whmqk"
+            "http://localhost:3000/whmqk"
         ],
         [
             "/https:google.com",
-            "yfixf"
+            "http://localhost:3000/yfixf"
         ],
         [
             "https://www.google.com/",
-            "qdbsb"
+            "http://localhost:3000/qdbsb"
         ],
         [
             "https://yahoo.co.jp/",
-            "hd10h"
+            "http://localhost:3000/hd10h"
         ]
     ]
 }
